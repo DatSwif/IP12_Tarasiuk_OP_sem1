@@ -1,0 +1,14 @@
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.exe
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.deps.json
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.runtimeconfig.json
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.runtimeconfig.dev.json
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.dll
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\bin\Debug\netcoreapp3.1\OP_lab_1_C++.pdb
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.csproj.AssemblyReference.cache
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.AssemblyInfoInputs.cache
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.AssemblyInfo.cs
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.csproj.CoreCompileInputs.cache
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.dll
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.pdb
+C:\Users\taras\source\repos\OP_lab_1_C++\OP_lab_1_C++\obj\Debug\netcoreapp3.1\OP_lab_1_C++.genruntimeconfig.cache
