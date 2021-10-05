@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>lab_op_2_Csharp</AssemblyName>
+    <RootNamespace>lab_op_2_Csharp</RootNamespace>
+  </PropertyGroup>
+
+</Project>

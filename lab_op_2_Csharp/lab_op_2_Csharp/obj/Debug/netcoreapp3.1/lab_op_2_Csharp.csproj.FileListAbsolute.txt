@@ -1,0 +1,14 @@
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.exe
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.deps.json
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.runtimeconfig.json
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.runtimeconfig.dev.json
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.dll
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\bin\Debug\netcoreapp3.1\lab_op_2_Csharp.pdb
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.csproj.AssemblyReference.cache
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.AssemblyInfoInputs.cache
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.AssemblyInfo.cs
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.dll
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.pdb
+C:\Users\taras\source\repos\lab_op_2_Csharp\lab_op_2_Csharp\obj\Debug\netcoreapp3.1\lab_op_2_Csharp.genruntimeconfig.cache
