@@ -6,23 +6,83 @@ namespace lab_op_3_Csharp
     {
         static void Main(string[] args)
         {
-            double x = 1;
-            Console.WriteLine("number: ");
-            double num = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("root: ");
-            double p = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("precision: ");
-            double prec = Convert.ToDouble(Console.ReadLine());
-            double mark = Math.Pow(num,(1 / p));
-            while (Math.Abs(x - mark) > prec)
+            Console.Write("number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.Write("root: ");
+            int p = Convert.ToInt32(Console.ReadLine());
+            Console.Write("10^(-eps), eps=precision: ");
+            double eps = Math.Pow(10, -1 * Convert.ToDouble(Console.ReadLine()));
+            sbyte ceil_pos(int a, int p, int num)
             {
-                x = 1 / p * Math.Floor((p - 1) * x + num / Math.Pow(x, p - 1));
-                Console.WriteLine(x);
+                if ((Math.Pow(a - 1, p) < num) && (Math.Pow(a, p) >= num))
+                {
+                    return 0;
+                }
+                else if (Math.Pow(a - 1, p) >= num)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return -1;
+                }
             }
-            Console.Write("calculated with iterations: ");
-            Console.WriteLine(x);
-            Console.Write("the actual value: ");
-            Console.WriteLine(mark);
+            double mult(int p, int n)
+            {
+                double res = 1;
+                for (int i = 0; i < n; i++)
+                {
+                    res = res * (1/Convert.ToDouble(p)-Convert.ToDouble(i));
+                }
+                return res;
+            }
+            double fact(int n)
+            {
+                double res = 1;
+                for (int i = 1; i <= n; i++)
+                {
+                    res = res * i;
+                }
+                return res;
+            }
+            double add (int a, int p, double b, int n)
+            {
+                double power = Math.Pow(b / Math.Pow(a, p), n);
+                double other = mult(p, n) / fact(n);
+                return power * other;
+            }
+            int p2 = -1;
+            int a = 0;
+            while (ceil_pos(a, p, num) == -1)
+            {
+                p2 += 1;
+                a = Convert.ToInt32(Math.Pow(2, p2));
+            }
+            while (ceil_pos(a, p, num) != 0)
+            {
+                if (ceil_pos(a, p, num) == 1)
+                {
+                    p2 -= 1;
+                    a -= Convert.ToInt32(Math.Pow(2, p2));
+                }
+                else if (ceil_pos(a, p, num) == -1)
+                {
+                    p2 -= 1;
+                    a += Convert.ToInt32(Math.Pow(2, p2));
+                }
+            }
+
+            int b = num - Convert.ToInt32(Math.Pow(a, p));
+            int n = 0;
+            double ans = 1;
+            do
+            {
+                n += 1;
+                ans += add(a, p, b, n);
+            }
+            while (Math.Abs(add(a, p, b, n)) >= eps);
+            Console.Write("approximation: ");
+            Console.WriteLine(ans * Convert.ToDouble(a));
         }
     }
 }
