@@ -1,5 +1,4 @@
 using System;
-​
 namespace lab_op_5_Csharp
 {
     public class Program
