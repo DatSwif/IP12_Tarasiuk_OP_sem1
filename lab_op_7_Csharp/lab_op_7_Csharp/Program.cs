@@ -33,12 +33,13 @@ namespace lab_op_7_Csharp
             }
             return big - small;
         }
-        static void change_the_array(ref int[] array, int diff)
+        static int[] change_the_array(int[] array, int diff)
         {
             for (int i = 0; i < (array.Length + 1) / 2; i++)
             {
                 array[i * 2] = diff;
             }
+            return array;
         }
         static void print(int[] array)
         {
@@ -54,7 +55,8 @@ namespace lab_op_7_Csharp
             int[] array = form();
             print(array);
             int diff = find_diff(array);
-            change_the_array(ref array, diff);
+            Console.WriteLine(diff);
+            array = change_the_array(array, diff);
             print(array);
         }
     }

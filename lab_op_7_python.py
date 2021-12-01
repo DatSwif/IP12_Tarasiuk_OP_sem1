@@ -30,5 +30,6 @@ def write(array):
 array = form()
 write(array)
 diff = find_diff(array)
+print(diff)
 change_the_array(array, diff)
 write(array)
