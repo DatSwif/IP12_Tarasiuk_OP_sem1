@@ -7,15 +7,19 @@ def form():
         array.append(random.randint(-999,999))
     return array
 
-def find_diff(array):
+def small(array):
     small = array[0]
-    big = small
     for i in range(1, len(array)):
         if array[i] < small:
             small = array[i]
-        elif array[i] > big:
+    return small
+
+def big(array):
+    big = array[0]
+    for i in range(1, len(array)):
+        if array[i] > big:
             big = array[i]
-    return big - small
+    return big
 
 def change_the_array(array, diff):
     for i in range((len(array) + 1) // 2):
@@ -29,7 +33,7 @@ def write(array):
 
 array = form()
 write(array)
-diff = find_diff(array)
+diff = big(array) - small(array)
 print(diff)
 change_the_array(array, diff)
 write(array)
