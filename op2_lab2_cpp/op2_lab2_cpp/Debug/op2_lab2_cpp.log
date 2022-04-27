@@ -1,0 +1,9 @@
+﻿  func.cpp
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\header.h(27,25): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\header.h(38,31): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\func.cpp(67,25): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\func.cpp(85,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\func.cpp(89,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\func.cpp(102,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\taras\source\repos\op2_lab2_cpp\op2_lab2_cpp\func.cpp(104,47): warning C4018: <: несоответствие типов со знаком и без знака
+  op2_lab2_cpp.vcxproj -> C:\Users\taras\source\repos\op2_lab2_cpp\Debug\op2_lab2_cpp.exe
